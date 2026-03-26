@@ -28,20 +28,5 @@ Booking-Desk-App/
 ├── images/     # Screenshots used in documentation
 
 
-## Technologies Used
-Frontend
-Angular
-TypeScript
-SCSS
-HTML
-Backend
-PHP
-Oracle SQL
 
-## Application Flow
-The user selects a booking date from the calendar.
-The user chooses a desk from the office map.
-The application highlights the selected desk.
-The user confirms the booking.
-A success message is displayed.
-The booked desk can later be viewed in the booking information area.
+

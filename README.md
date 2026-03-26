@@ -28,7 +28,7 @@ Booking-Desk-App/
 ├── images/     # Screenshots used in documentation
 
 
-##Technologies Used
+## Technologies Used
 Frontend
 Angular
 TypeScript
@@ -38,7 +38,7 @@ Backend
 PHP
 Oracle SQL
 
-##Application Flow
+## Application Flow
 The user selects a booking date from the calendar.
 The user chooses a desk from the office map.
 The application highlights the selected desk.

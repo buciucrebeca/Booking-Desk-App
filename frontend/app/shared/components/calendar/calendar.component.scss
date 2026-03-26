@@ -1,0 +1,42 @@
+.calendar-component {
+  width: 100%;
+  height: 100%;
+  box-shadow: rgba(149, 157, 165, 0.616) 0 8px 24px;
+
+  .card {
+    height: 100%;
+    width: 100%;
+
+    ::ng-deep p-datepicker {
+      .p-datepicker {
+        height: 100%;
+        width: 100%;
+
+        .p-datepicker-calendar-container {
+          height: 100%;
+
+          .p-datepicker-calendar {
+            height: 100%;
+            .p-datepicker-header {
+              height: 7%;
+            }
+            .p-datepicker-day-view {
+              height: 93%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+::ng-deep p-datepicker .p-datepicker-panel {
+  border-radius: 0;
+}
+
+::ng-deep p-datepicker .p-button-text {
+  color: #7d8389;
+}
+
+::ng-deep p-datepicker .p-datepicker-day-selected {
+  background-color: #7d8389;
+}

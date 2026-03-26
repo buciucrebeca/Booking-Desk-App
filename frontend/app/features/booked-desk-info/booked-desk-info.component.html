@@ -1,0 +1,20 @@
+<div class="booked-desk-info">
+  <div class="top-bar">
+    <div class="toast" *ngIf="toastVisible" [ngClass]="toastType">
+      {{ toastMessage }}
+    </div>
+    <app-top-bar-booked
+      [selectedDesk]="selectedDeskBooked"
+      (withdraw)="onWithdrawBoking()"
+    ></app-top-bar-booked>
+  </div>
+  <div class="booked_area-content">
+    <div class="register">
+      <app-booked-desk-register></app-booked-desk-register>
+    </div>
+    <div class="map-booked">
+      <app-map [selectable]="false" [selectedDesk]="selectedDeskBooked">
+      </app-map>
+    </div>
+  </div>
+</div>

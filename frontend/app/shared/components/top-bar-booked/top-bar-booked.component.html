@@ -1,0 +1,20 @@
+<div class="top-bar-booked-component">
+  <div class="top-bar-booked_label">
+    <span class="top-bar-booked_title">Current booking </span>
+    <span *ngIf="selectedDesk" class="top-bar-booked_status"
+      >Desk {{ selectedDesk }}</span
+    >
+  </div>
+  <div class="top-bar-booked_buttons">
+    <button
+      type="button"
+      class="a-button a-button--brand-primary"
+      (click)="withdraw.emit()"
+    >
+      <span class="a-button__label">Withdraw booking</span>
+    </button>
+    <a class="icon-link" routerLink="/" title="Home" aria-label="Home">
+      <i class="a-icon boschicon-bosch-ic-home"></i>
+    </a>
+  </div>
+</div>

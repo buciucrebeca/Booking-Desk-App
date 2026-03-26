@@ -1,0 +1,15 @@
+<div class="calendar-component">
+  <div class="card flex justify-center">
+    <p-datepicker
+      class="max-w-full"
+      [minDate]="minDate"
+      [maxDate]="maxDate"
+      [disabledDays]="[0, 6]"
+      [(ngModel)]="date"
+      (ngModelChange)="onDateChange($event)"
+      [inline]="true"
+      [showWeek]="true"
+      [minDate]="minDate"
+    />
+  </div>
+</div>

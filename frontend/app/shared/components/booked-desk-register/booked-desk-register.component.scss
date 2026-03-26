@@ -1,0 +1,63 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+  width: 100%;
+
+  .top-bar-register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.44rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.616) 0 8px 24px;
+
+    .top-bar_title {
+      font-size: 1rem;
+      font-weight: 550;
+    }
+  }
+
+  .register-table {
+    height: 100%;
+    background: #ffffff;
+    box-shadow: rgba(149, 157, 165, 0.616) 0 8px 24px;
+  }
+
+  .paginator {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 16px;
+  }
+}
+
+::ng-deep .table-card .p-datatable-table {
+  width: 100%;
+}
+
+::ng-deep .table-card .p-datatable-thead > tr > th {
+  background-color: #f8f9fa;
+  font-weight: 650;
+  font-size: 17px;
+}
+
+::ng-deep .table-card .p-datatable-tbody > tr > td {
+  background: #ffffff;
+  font-weight: 530;
+  font-size: 14px;
+}
+
+.col-user {
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.col-desk {
+  width: 30%;
+  text-align: center;
+  white-space: nowrap;
+}

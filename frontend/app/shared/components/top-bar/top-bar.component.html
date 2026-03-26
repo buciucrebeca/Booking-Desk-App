@@ -1,0 +1,30 @@
+<div class="top-bar-component">
+  <div class="top-bar_label">
+    <span class="top-bar_title">Current booking - </span>
+    <span class="top-bar_status">
+      {{
+        selectedDesk
+          ? "Desk " + selectedDesk + " selected "
+          : "No desk selected"
+      }}
+    </span>
+  </div>
+  <div class="top-bar_buttons">
+    <button
+      type="button"
+      class="a-button a-button--brand-primary"
+      [disabled]="!canBook"
+      (click)="onBookNowClick()"
+    >
+      <span class="a-button__label">Book Now</span>
+    </button>
+    <a
+      class="icon-link"
+      routerLink="/booked-desk-info"
+      title="Booked desks"
+      aria-label="Booked desks"
+    >
+      <i class="a-icon boschicon-bosch-ic-book-info"></i>
+    </a>
+  </div>
+</div>

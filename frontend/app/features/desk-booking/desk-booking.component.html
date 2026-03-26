@@ -1,0 +1,24 @@
+<div class="booking-popup" *ngIf="showPopup">
+  <span>{{ popupMessage }}</span>
+</div>
+<div class="desk-booking">
+  <div class="top-bar">
+    <app-top-bar
+      [selectedDesk]="selectedDesk"
+      [selectedDate]="selectedDate"
+      (bookNow)="onBookNow()"
+    ></app-top-bar>
+  </div>
+  <div class="booking_area-content">
+    <div class="calendar">
+      <app-calendar (dateSelected)="onDateSelected($event)"></app-calendar>
+    </div>
+    <div class="map">
+      <app-map
+        [selectable]="true"
+        [selectedDesk]="selectedDesk"
+        (deskSelected)="selectedDesk = $event"
+      ></app-map>
+    </div>
+  </div>
+</div>

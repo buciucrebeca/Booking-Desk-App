@@ -1,0 +1,49 @@
+.map-component {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  box-shadow: rgba(149, 157, 165, 0.616) 0 8px 24px;
+  position: relative;
+
+  .map-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+  }
+
+  .desk {
+    cursor: pointer;
+    color: inherit;
+
+    position: absolute;
+    width: 5%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+
+  .desk:hover {
+    filter: brightness(0.92);
+  }
+
+  .A-area,
+  .B-area,
+  .C-area,
+  .D-area {
+    background-color: #84e291;
+    border: 1px solid #000;
+    transform: translate(-50%, -50%) rotate(270deg);
+  }
+
+  .desk.selected.A-area,
+  .desk.selected.B-area,
+  .desk.selected.C-area,
+  .desk.selected.D-area {
+    background-color: #2b7a2b !important;
+    color: #fff !important;
+  }
+}

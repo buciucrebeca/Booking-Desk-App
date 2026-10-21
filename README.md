@@ -1,32 +1,27 @@
-# Booking-Desk-App
+# Desk Booking App
 
-A desk booking web application developed for managing office workspace reservations.  
-The project allows users to select a date, choose an available desk from an interactive office map, and manage bookings through a simple and intuitive interface.
-
-## Overview
-
-This application was created as a practical project to simulate a real office desk reservation system.  
-It provides a visual way to book desks, helping users easily see available workspaces and make reservations for selected dates.
+A web application for booking office desks. Users can select a date, view available desks on an interactive office map and make a reservation.
 
 ## Features
 
-- Interactive office desk map
+- Interactive office map with desk selection
 - Calendar-based date selection
-- Desk selection and booking flow
+- Desk reservation flow
 - Booking confirmation popup
-- Booked desk information view
-- Responsive UI structure
-- Frontend and backend project separation
+- Details of booked desks
+- Responsive user interface
+
+## Technologies
+
+| Part | Technologies |
+| --- | --- |
+| Frontend | Angular, TypeScript, HTML, SCSS |
+| Backend | PHP |
 
 ## Project Structure
 
-```bash
-Booking-Desk-App/
-│
-├── frontend/   # Angular frontend application
-├── backend/    # Backend logic / API
-├── images/     # Screenshots used in documentation
-
-
-
-
+| Folder | Description |
+| --- | --- |
+| `frontend/` | Angular frontend application |
+| `backend/` | PHP backend code |
+| `images/` | Screenshots used in the documentation |

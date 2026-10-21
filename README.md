@@ -2,6 +2,20 @@
 
 A web application for booking office desks. Users can select a date, view available desks on an interactive office map and make a reservation.
 
+## Screenshots
+
+### Desk selection
+
+![Office map and booking calendar](images/desk_booking.jpg)
+
+### Booking confirmation
+
+![Desk booking confirmation](images/desk_booked.jpg)
+
+### Booked desks register
+
+![Booked desks register](images/register.jpg)
+
 ## Features
 
 - Interactive office map with desk selection

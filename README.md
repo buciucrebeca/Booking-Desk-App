@@ -1,8 +1,11 @@
 # Desk Booking App
 
 A web application for booking office desks. Users can select a date, view available desks on an interactive office map and make a reservation.
+This repository contains the Angular frontend and part of the PHP backend.
+The complete backend and internal databases are not included. The full application cannot be run from this repository alone.
+The screenshots show the application's interface and main booking flow.
 
-## Screenshots
+## Imagies
 
 ### Desk selection
 
